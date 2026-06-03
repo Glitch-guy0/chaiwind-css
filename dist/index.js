@@ -1,9 +1,9 @@
 import express from 'express';
-import { platform } from 'process';
+import multerRouter from './multer/multer.controller.js';
 const app = express();
 const localhost = 'http://localhost:';
-const server = app.listen(0, () => {
+app.use(multerRouter);
+const server = app.listen(3000, () => {
     console.log('server is running on port', `${localhost}${server.address().port}`);
-    console.log("platform", platform);
 });
 //# sourceMappingURL=index.js.map
