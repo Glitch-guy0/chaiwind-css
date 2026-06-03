@@ -1,0 +1,28 @@
+{
+  "name": "multer-exploration",
+  "version": "0.0.0",
+  "description": "Trying out features in multer and practicing",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-personal:Glitch-guy0/chaiwind-css.git"
+  },
+  "license": "ISC",
+  "author": "Glitch-guy0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@imagekit/nodejs": "^7.6.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3",
+    "multer": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  }
+}
